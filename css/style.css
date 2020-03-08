@@ -1,3 +1,10 @@
+img{
+	max-width:90%;
+	position: relative;
+	height: auto;
+	border: 1px solid;
+}
+
 .mainbox {
 	background-color: red;
 	width: 800px; 
@@ -6,25 +13,26 @@
 }
 
 .leftside {
-	background-color: grey;
+	background-color: #7bd9e3;
 	width: 100px;
 	float: left;
 }
 
 .main{
-	background-color: #f4f4f4;
+	background-color: #e37b87;
 	width: 600px;
 	float: left;
 }
 
 .rightside{
-	background-color: darkgreen;
+	background-color: #7bd9e3;
 	width: 100px;
-	float: left;
+	float: right;
 }
 
 .footer{
-	background-color: grey;
+	background-color: #7bdbaf;
+	clear: both;		
 }
 
 .menu{

@@ -43,3 +43,11 @@ body{
   font-size: 18px;
   padding-right: 20px;
 }
+
+#outside-pic{
+  width: 250px;
+}
+
+.fit-picture{
+  width: 800px;
+}
