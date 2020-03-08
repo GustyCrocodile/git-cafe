@@ -1,57 +1,35 @@
+
+body{
+	font: 15px/1.5 Arial, Helvetica,cursive;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
 img{
-	max-width:90%;
-	position: relative;
-	height: auto;
-	border: 1px solid;
+	max-width:100%;
+	height:auto;
 }
 
-.mainbox {
-	background-color: red;
-	width: 800px; 
-	margin: 0px auto;
-	
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
 }
 
-.leftside {
-	background-color: #7bd9e3;
-	width: 100px;
-	float: left;
+
+#showcase{
 }
 
-.main{
-	background-color: #e37b87;
-	width: 600px;
-	float: left;
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:325px;
+	width:820px;
 }
-
-.rightside{
-	background-color: #7bd9e3;
-	width: 100px;
-	float: right;
-}
-
-.footer{
-	background-color: #7bdbaf;
-	clear: both;		
-}
-
-.menu{
-	background-color: beige;
-	height: 34px;
-	text-align: center; 	
-}
-
-.menu>ul>li{
-	display: inline;
-	padding: 5px 5px;
-	background: darkgreen;
-	position: relative;
-	top: 8px;
-	font-family: Tahoma, serif;
-	font-size: 14px; 
-}
-
-.menu>ul>li>a{
-	text-decoration: none;
-	color: #fff;
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:325px;
+	width:820px;
 }
