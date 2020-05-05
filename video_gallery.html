@@ -2,41 +2,76 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Cafe</title>
+	<meta name="viewport" content="width=device-width"> 
+	<meta name="description" content="South American Restaurant">
+	<meta name="keywords" content="south american restaurant, ecuador food, restaurant">
+	<meta name="author" content="Davis Rijnieks">
+	
+	<title>Cafe Durmiente</title>
 
-	<link rel="stylesheet" href="css/style.css">
 	<!--link rel="stylesheet" href="css/reset.css"-->
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-
-	<header>
+	<div id="header">
 		<div class="container">
-			<div class="branding">
-				<a href="index.html">
-					<img class="logo" src="images/logo.svg" alt="logo">
-				</a>
-				<h1>Cafe Durmiente</h1>
-			</div>
-			
+			<!-- logo -->
+				<div id="logo">
+					<h1><a href="#">Cafe Durmiente</a></h1>
+				</div>
 
-			<nav>
+			<!-- nav -->
+				<nav id="nav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link">Home</a>
+							<a href="menu.html" class="nav-link">Menu</a>
+							<a href="contact-us.html" class="nav-link">Contact Us</a>
+							<a href="gallery.html" class="nav-link">Gallery</a>
+						</li>
+					</ul>
+				</nav>
+		</div>
+	</div>
+
+	
+	<div class="main">
+		<div class="container">
+			
+			<nav class="categories">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="menu.html">Our Menu</a></li>
-					<li><a href="about.html">About Us</a></li>
-					<li><a href="contact.html">Contact</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="gallery.html">Photo Gallery</a></li>
+					<li><a href="video_gallery.html">Video Gallery</a></li>
 				</ul>
 			</nav>
-		</div>
-	</header>
 
-<div class="main">
-	<div class="container">
-		<h2>Video Gallery</h2>
+			<h2>Video Gallery</h2>
+		</div>
 	</div>
-</div>
+
+	<hr>
+	<footer>
+		<div class="container">
+			<div class="opening_hours">
+					
+				<h3>Opening hours</h3>
+				<p><span class="text-color">Monday: </span>Closed</p>
+				<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
+				<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
+				<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
+
+			</div>
+
+			<div class="contact_info">
+				<h3>Contact information</h3>
+					<p>Ipsum Street, Lorem Tower, MO, Columbia, 508000</p>
+					<p>+01 2000 800 9999</p>
+					<p>info@admin.com</p>
+			</div>
+		</div>
+	</footer>
 
 </body>
 </html>

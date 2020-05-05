@@ -1,71 +1,165 @@
-
 body{
-	font: 15px/1.5 Helvetica, Arial, sans-serif;
-	padding: 0;
+	/* color: #666; */
+	font-size: 18px;
+	font-family: Helvetica, sans-serif;
+	line-height: 1.5;
 	margin: 0;
-	background-color: #f4f4f4;
-}
-
-h1 
-{
-	margin: 0;
-	padding: 0;
-}
-
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.branding {
-	float: left;
-}
-
-.logo {
-	display: inline;
-	vertical-align: top;
-}
-
-header {
-	background: #ead84d; 
+	background: #EAEBED;
 }
 
 .container{
 	width: 80%;
 	margin: auto;
-	overflow: hidden;
-} 
-
-nav {
-	float: right;
-	margin-top: 15px;
-	position: relative;
+	padding: 10px;
 }
 
-
-header li{
-	float: left;
-	display: inline;
-	padding: 0 20px 0 20px;
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
 }
 
-header a{
-	color: #000;
+input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+textarea {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.navbar {
+	background-color: #171219;
+	/*border-bottom: 3px solid;*/
+}
+
+.logo {
+	display: inline-flex;
 	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 16px;
+	color: #EEA243;
+	font: bold;
 }
 
-.mapouter{
-	position:relative;
-	text-align:right;
-	height:325px;
-	width:820px;
+.nav {
+	display: inline-flex;
+	float: right;
+	padding: 30px;	
 }
-.gmap_canvas {
-	overflow:hidden;
-	background:none!important;
-	height:325px;
-	width:820px;
+
+.nav-link {
+	color: #EAEBED;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	color: #C06944;
+}
+
+.banner {
+	height: 400px;  
+	background-color: rgb(52, 51, 57);
+	background-image: url(../images/outside.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.header {
+	text-align: center;
+	color: white;
+	line-height: 400px;
+}
+
+.mission {
+	padding: 25px;
+	text-align: justify;
+}
+
+.centered-text {
+	display: inline-block;
+	vertical-align: middle;
+	font: small-caps bold;
+	line-height: 18px;
+	text-shadow: 10px #171219;
+}
+
+.mission {
+	text-align: center;
+}
+
+.text {
+	width: 900px;
+	height: 400px;
+	float: left;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.image {
+	width: 500px;
+	float: left;
+	padding-left: 45px;
+	padding-right: 45px;
+	/*padding: 45px;*/
+	padding-bottom: 45px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+.ytplayer {
+	text-align: center;
+	padding: 20px;
+}
+
+.opening-hours {
+	padding: 20px;
+	width: 30%;
+	float: left;
+	border-right: 2px solid #706C61;
+}
+
+.contact-info {
+	padding: 20px;
+	width: 30%;
+	float: left;
+	border-right: 2px solid #706C61;
+}
+
+.letter {
+	padding: 20px;
+	width: 30%;
+	float: left;
+}
+
+.button {
+	padding: 10px 15px;
+	border: none;
+	background: #171219;
+	color: #fff;
+}
+
+.button:hover {
+	background-color: #EEA243;
+}
+
+footer {
+	background-color: #343330;
+	overflow: hidden; 
+	color: #fff;
+	border-top: solid 5px #706C61;
+}
+
+
+.menu-img {
+	width: 400px;
+
+}
+
+
+.gal-img {
+	width: 400px;
 }
