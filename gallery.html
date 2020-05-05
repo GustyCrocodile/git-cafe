@@ -29,8 +29,14 @@
 				<ul>
 					<li class="nav-item">
 						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
 						<a href="menu.html" class="nav-link">Menu</a>
+					</li>
+					<li class="nav-item">
 						<a href="contact-us.html" class="nav-link">Contact Us</a>
+					</li>
+					<li class="nav-item">
 						<a href="gallery.html" class="nav-link">Gallery</a>
 					</li>
 				</ul>
@@ -40,49 +46,85 @@
 
 	<!-- Main -->
 
+	<nav class="categories">
+		<div class="container">
+			<ul>
+				<li class="catg-item">
+					<a class="catg-link" href="gallery.html">Photo Gallery</a>
+				</li>
+
+				<li class="catg-item">
+					<a class="catg-link" href="video_gallery.html">Video Gallery</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
 	<div class="main">
 		<div class="container">
 			
-			<nav class="categories">
-				<ul>
-					<li><a href="gallery.html">Photo Gallery</a></li>
-					<li><a href="video_gallery.html">Video Gallery</a></li>
-				</ul>
-			</nav>
 
 			<h2>Gallery</h2>
 			
-			<a href="images/food/Arroz-con-Pollo.jpg" data-lightbox="food"><img class="gal-img" src="images/food/Arroz-con-Pollo.jpg" alt="Image of Arroz con Pollo"></a>
-			<a href="images/food/llapingachos.jpg" data-lightbox="food"><img class="gal-img" src="images/food/llapingachos.jpg" alt="Image of Llapingachos"></a>
-			<a href="images/food/shrimp.jpg" data-lightbox="food"><img class="gal-img" src="images/food/shrimp.jpg" alt="Image of Ceviche"></a>
+			<a href="images/food/Arroz-con-Pollo.jpg" data-lightbox="food">
+				<img class="gal-img" src="images/food/Arroz-con-Pollo.jpg" alt="Image of Arroz con Pollo">
+			</a>
+
+			<a href="images/food/llapingachos.jpg" data-lightbox="food">
+				<img class="gal-img" src="images/food/llapingachos.jpg" alt="Image of Llapingachos">
+			</a>
+
+			<a href="images/food/shrimp.jpg" data-lightbox="food">
+				<img class="gal-img" src="images/food/shrimp.jpg" alt="Image of Ceviche">
+			</a>
+
 		</div>
 	</div>
 
 	<!--  -->
 
-	<hr>
 	<footer>
 		<div class="container">
-			<div class="opening_hours">
+			<div class="opening-hours">
 					
 				<h3>Opening hours</h3>
 				<p><span class="text-color">Monday: </span>Closed</p>
-				<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
-				<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
-				<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
+				<p><span class="text-color">Tue-Wed :</span> 9:00 - 22:00</p>
+				<p><span class="text-color">Thu-Fri :</span> 10:00 - 22:00</p>
+				<p><span class="text-color">Sat-Sun :</span> 10:00 - 00:00</p>
 
 			</div>
 
-			<div class="contact_info">
+			<div class="contact-info">
 				<h3>Contact information</h3>
-				<p>Ipsum Street, Lorem Tower, MO, Columbia, 508000</p>
-				<p>+01 2000 800 9999</p>
-				<p>info@admin.com</p>
+					<p>Ipsum Street, Lorem Tower, MO, Columbia, 508000</p>
+					<p>+01 2000 800 9999</p>
+					<p>info@admin.com</p>
 			</div>
+
+			<div class="letter">
+				<h3>Send a Message</h3>
+				<form action="#">
+					<div>
+						<input type="text" name="name" placeholder="Name">
+					</div>
+					<div>
+						<input type="text" name="email" placeholder="Email">
+					</div>
+					<div>
+						<textarea name="message" placeholder=" Message" ></textarea>
+					</div>
+					<div>
+						<input name="send-button" type="submit" class="button" value="SUBMIT">
+					</div>
+				</form>
+			</div>
+
 		</div>
 	</footer>
 
 <script src="libs/lightbox/js/lightbox.js"></script>
 
 </body>
+
 </html>

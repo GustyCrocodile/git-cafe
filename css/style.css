@@ -87,9 +87,17 @@ textarea {
 	text-shadow: 10px #171219;
 }
 
+.centered-text {
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+}
+
 .mission {
 	text-align: center;
+	font-weight: bold;
+	font-style: italic;
 }
+
 
 .text {
 	width: 900px;
@@ -153,6 +161,26 @@ footer {
 	border-top: solid 5px #706C61;
 }
 
+.column-left {
+	float: left;
+	width: 25%;
+}
+
+.column-center-left {
+	float: left;
+	width: 25%;
+}
+
+.column-center-right {
+	float: left;
+	width: 25%;
+}
+
+.column-right {
+	float: right;
+	width: 25%;
+}
+
 
 .menu-img {
 	width: 400px;
@@ -162,4 +190,30 @@ footer {
 
 .gal-img {
 	width: 400px;
+}
+
+.google-maps {
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+.categories {
+	background-color: #343330;
+}	
+
+.catg-item {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+}
+
+.catg-link {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	display: inline;
+}
+
+.catg-link:hover {
+	color: #C06944;
+
 }
