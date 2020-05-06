@@ -1,6 +1,18 @@
+;(function($) {
+  $(function() {
 
-var mobile = document.createElement('div');
-mobile.className = 'nav-mobile';
-document.querySelector('.nav').appendChild(mobile);
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
+    });
 
-setup();
+    $('#nav-toggle').click(function() {
+      $('nav ul').slideToggle();
+    });
+
+    $('#nav-toggle').on('click', function() {
+      this.classList.toggle('active');
+    });
+
+  });
+
+})(jQuery); 
