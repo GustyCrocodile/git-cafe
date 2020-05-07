@@ -325,8 +325,14 @@ footer {
 	.header {
 		line-height: 300px;
 	}
+
+/*	Images */
 	
 	.gal-img {
+		width: 300px;
+	}
+
+	.menu-img {
 		width: 300px;
 	}
 
